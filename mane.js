@@ -20,7 +20,7 @@ function gotResults(error, results) {
         document.getElementById("results_label").innerHTML = 'Escucho - '+results[0].label;
         document.getElementById("results_confidence").innerHTML = 'Precisión - '+ (results[0].confidence*100).toFixed(2)+" %";
         document.getElementById("results_label").style.color = "rgb("+random_nober_r+","+random_nober_g+","+random_nober_b+")";
-        document.getElementById("result_confidence").style.color = "rgb("+random_nober_r+","+random_nober_g+","+random_nober_b+")";
+        document.getElementById("results_confidence").style.color = "rgb("+random_nober_r+","+random_nober_g+","+random_nober_b+")";
         img = document.getElementById('alien1');
         img1 = document.getElementById('alien2');
         img2= document.getElementById('alien3');
